@@ -1,0 +1,28 @@
+{
+  "name": "imovies",
+  "version": "1.0.0",
+  "description": "IMovies – Full-Stack Online Movie Ticket Booking Platform",
+  "scripts": {
+    "server": "npm --prefix server start",
+    "server:dev": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "client:build": "npm --prefix client run build",
+    "seed": "npm --prefix server run seed",
+    "test": "npm --prefix server test"
+  },
+  "keywords": [
+    "movie-ticket-booking",
+    "cinema",
+    "react",
+    "nodejs",
+    "express",
+    "mongodb",
+    "socketio",
+    "tailwind"
+  ],
+  "author": "IMovies Engineering",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^9.2.5"
+  }
+}
